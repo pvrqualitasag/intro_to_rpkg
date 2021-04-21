@@ -1,0 +1,42 @@
+---
+title: "Introduction To R-Packages"
+author: "Peter von Rohr"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Resource
+
+* R Packages - `https://r-pkgs.org/index.html`
+* Writing R Extensions - `https://cran.r-project.org/doc/manuals/r-release/R-exts.html`
+
+
+## Get Started
+
+* RStudio ...
+* `usethis::create_package()`
+
+
+## Develop
+
+* 
+
+## Document
+
+*
+
+## Test
+
+*
+
+
+
+## Install
+
+* `devtools::document();devtools::install()`
