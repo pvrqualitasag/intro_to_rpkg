@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * R Packages - `https://r-pkgs.org/index.html`
 * Writing R Extensions - `https://cran.r-project.org/doc/manuals/r-release/R-exts.html`
+* [How to create an R package in 8 minutes](https://www.youtube.com/watch?v=MoszELQFrvQ)
 
 
 ## Get Started
