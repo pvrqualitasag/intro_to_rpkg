@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Requirements
 
 ```{r eval=FALSE}
-vec_pkg <- c("devtools", "usethis", "roxygen2", "pkgdown")
+vec_pkg <- c("devtools", "usethis", "roxygen2", "pkgdown", "testthat")
 vec_inst <- vec_pkg[!is.element(vec_pkg, installed.packages())]
 if (length(vec_inst) > 0) install.packages(vec_inst, dependencies = TRUE)
 ```
