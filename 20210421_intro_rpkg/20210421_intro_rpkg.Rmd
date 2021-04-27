@@ -18,6 +18,16 @@ knitr::opts_chunk$set(echo = FALSE)
 * [How to create an R package in 8 minutes](https://www.youtube.com/watch?v=MoszELQFrvQ)
 
 
+## Requirements
+
+```{r eval=FALSE}
+vec_pkg <- c("devtools", "usethis", "roxygen2", "pkgdown")
+vec_inst <- vec_pkg[!is.element(vec_pkg, installed.packages())]
+if (length(vec_inst) > 0) install.packages(vec_inst, dependencies = TRUE)
+```
+
+
+
 ## Get Started
 
 * RStudio ...
@@ -26,7 +36,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Develop
 
-* 
+* From scratch ...
+* Given a script ...
 
 ## Document
 
