@@ -3,8 +3,8 @@ title: "Introduction To R-Packages"
 author: "Peter von Rohr"
 date: "`r Sys.Date()`"
 output:
-  ioslides_presentation: default
   beamer_presentation: default
+  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -39,16 +39,18 @@ if (length(vec_inst) > 0) install.packages(vec_inst, dependencies = TRUE)
 * From scratch ...
 * Given a script ...
 
-## Document
-
-*
-
-## Test
-
-*
-
-
 
 ## Install
 
 * `devtools::document();devtools::install()`
+
+
+## Document
+
+* `roxygen2()`
+
+
+## Test
+
+* `testthat()`
+
